@@ -14,6 +14,6 @@ end
 char = " X "
 char2 = " O "
 
-def move(board,index,char)
+def move(board,index," X ")
   board[index] = char
 end
