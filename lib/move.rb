@@ -11,9 +11,7 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-char = " X "
-char2 = " O "
 
-def move(board,index," X ")
+def move(board,index,"X")
   board[index] = char
 end
